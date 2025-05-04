@@ -11,10 +11,8 @@ const CountrySelector = ({ onCountryChange }) => {
     const getCountries = async () => {
       try {
         const data = await fetchCountries();
-        console.log('Fetched countries:', data); // Log the fetched countries
         setCountries(data); // Directly set the fetched data
       } catch (error) {
-        console.error('Error fetching countries:', error);
       }
     };
 

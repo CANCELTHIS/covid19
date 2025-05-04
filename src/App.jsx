@@ -23,10 +23,8 @@ const App = () => {
                 } else {
                     result = await fetchCountryData(country); // Fetch country-specific data
                 }
-                console.log('Fetched data:', result); // Log the fetched data
                 setData(result);
             } catch (error) {
-                console.error('Error fetching data:', error);
             } finally {
                 setLoading(false);
             }
@@ -35,7 +33,6 @@ const App = () => {
     }, [country]);
 
     const handleCountryChange = (selectedCountry) => {
-        console.log('Selected country:', selectedCountry); // Log the selected country
         setCountry(selectedCountry);
     };
 

@@ -28,7 +28,6 @@ ChartJS.register(
 const Chart = ({ data }) => {
     // Log the incoming data to debug
     useEffect(() => {
-        console.log('Chart data:', data);
     }, [data]);
 
     if (!data || Object.keys(data).length === 0) {
