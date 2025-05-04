@@ -1,0 +1,66 @@
+.data-display {
+    background-color: #f9f9f9;
+    border: 2px solid #4476aa;
+    border-radius: 10px;
+    padding: 1.5rem;
+    max-width: 400px;
+    margin: 1rem auto;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4476aa;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.data-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+.data-item p {
+    margin: 0;
+    margin-left: 0.5rem;
+}
+
+.data-item span {
+    font-weight: bold;
+    color: #f08d0b;
+}
+
+.data-icon {
+    font-size: 1.5rem;
+}
+
+.cases-icon {
+    color: #ff9800;
+}
+
+.deaths-icon {
+    color: #f44336;
+}
+
+.recovered-icon {
+    color: #4caf50;
+}
+
+.active-icon {
+    color: #2196f3;
+}
+
+.updated-icon {
+    color: #9c27b0;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #007bff;
+}

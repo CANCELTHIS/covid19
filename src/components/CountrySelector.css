@@ -1,0 +1,57 @@
+.country-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1rem 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.country-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.globe-icon {
+  margin-right: 0.5rem;
+  color: #4476aa;
+}
+
+.dropdown-container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.country-dropdown {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #4476aa;
+  border-radius: 5px;
+  appearance: none;
+  background-color: #f9f9f9;
+  color: #333;
+  cursor: pointer;
+}
+
+.country-dropdown:focus {
+  outline: none;
+  border-color: #0056b3;
+}
+
+.dropdown-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 1.5rem;
+  color: #007bff;
+}
+h3{
+  color: #f08d0b;
+}

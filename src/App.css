@@ -1,0 +1,26 @@
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Adjusted height for better layout */
+    text-align: center;
+    flex-direction: column; /* Stack animation, icon, and text vertically */
+    color: #f8ae23;
+    font-size: 1.2rem;
+}
+
+.spinner-icon {
+    font-size: 2rem;
+    margin-top: 1rem;
+    animation: spin 1s linear infinite;
+}
+
+/* Add a spinning animation for the spinner icon */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
